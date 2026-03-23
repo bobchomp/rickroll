@@ -19,21 +19,18 @@
       min-height: 100vh;
     }
 
-    video {
+    iframe {
       width: 100vw;
       height: 100vh;
-      object-fit: cover;
+      border: none;
     }
   </style>
 </head>
 <body>
-  <video
-    src="https://www.youtube.com/embed/dQw4w9WgXcQ"
-    autoplay
-    muted
-    playsinline
-    loop
-    controls
-  ></video>
+  <iframe
+    src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1"
+    allow="autoplay; fullscreen"
+    allowfullscreen
+  ></iframe>
 </body>
 </html>
