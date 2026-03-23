@@ -1,10 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Video</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: #000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    video {
+      width: 100vw;
+      height: 100vh;
+      object-fit: cover;
+    }
+  </style>
+</head>
 <body>
-
-<iframe width="700" height="345" src="https://www.youtube.com/embed/dQw4w9WgXcQ">
-</iframe>
-
+  <video
+    src="videoplayback_1774282644684_publer_com.mp4"
+    autoplay
+    muted
+    playsinline
+    loop
+    controls
+  ></video>
 </body>
 </html>
-
